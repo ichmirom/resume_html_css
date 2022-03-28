@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #f1f1f1;
+    color: #0f141e;
+}
+
+.conteiner {
+    max-width: 750px;
+    margin: auto;
+}
+
+.info {
+display: flex;
+margin-left: 10px;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+}
+
+img {
+    box-shadow: 15px 10px 10px 2px rgba(0, 0, 0, 0.15);
+}
+
+a {
+    color: rgb(130, 120, 120);
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: rgb(130, 120, 120);
+}
+
+a:hover {
+    color: #2a84d8;
+}
+
+a:active {
+    color: blue;
+}
+
+.info-text {
+    margin-left: 25px;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #89868f;
+}
+
+.btn {
+    background-color: #111;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    opacity: 0.9;
+}
+
+.card-green {
+    background-color: rgb(199, 236, 219);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.card-blue {
+    background-color: #cadbeb;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.list {
+    padding: 5px 30px;
+    margin: 0;
+    color: #89868f;
+}
+
+.list li {
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.list li:hover {
+    background-color: rgb(132, 238, 189);
+}
+
+.table td {
+    border-radius: 6px;
+    padding: 5px;
+    color: #89868f;
+}
+
+.table td:hover{
+    color: #0f141e;
+}
+
+.table tbody tr:hover {
+    background-color: rgb(102 162 212);
+}
+
+.table tbody td:first-child {
+    color: black;
+}
+
+.input {
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+}
+
+.input div {
+    width: 50%;
+}
+
+@media (max-width: 650px) {
+    .input {
+        display: block;
+    }
+
+    .input div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.input input {
+    width: 90%;
+    background-color: #f1f1f1;
+    padding: 10px 0px;
+    border: 0;
+    border-bottom: 1px solid rgb(100, 93, 93);
+    margin-bottom: 5px;
+    outline: none;
+}
+
+.block :nth-child(1) {
+    display: block;
+}
+
+
+
+textarea {
+    background-color: #f1f1f1;
+    border: 0;
+    height: 100px;
+    border-bottom: 1px solid rgb(100, 93, 93);
+    margin-bottom: 5px;
+    outline: none;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+label {
+    color: #89868f;
+}

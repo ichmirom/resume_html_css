@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, css, course, cv, резюме">
+    <meta name="description" content="Изучение HTML и CSS в процессе создания сайта-резюме">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteiner">
+        <div class="info">
+            <img src='avatarka.png' alt="аватарка" width="220">
+            
+            <div class="info-text">
+                <h1>Роман Буркеев</h1>
+                
+                <p>Я стремлюсь стать <strong>Frontend</strong> разработчиком! И, в качестве первого шага, собираюсь пройти курс <strong>Junior Frontend Developer</strong> на <strong>Result School!</strong></p>
+                
+                <p>Я люблю <em>играть в компьютерные игры, читать книги и заниматься спортом</em></p>
+                
+                <h3>Список социальных сетей:</h3>
+                
+                <a href="https://vk.com/d2mira" target="_blank">VK</a> 
+                | 
+                <a href="https://t.me/T2MirA" target="_blank">Telegram</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-green">
+                <h2>Мои хобби</h2>
+                <ol class="list" type="1">
+                    <li>Чтение</li>
+                    <li>Компьютерные игры</li>
+                    <li>Программирование</li>
+                    <li>Спорт</li>
+                </ol>
+            </div>
+
+            <div class="card-blue">
+                <h2>Опыт работы</h2>
+                <table class="table"  >
+                    <thead>
+                        <tr>
+                            <th>Название</th>
+                            <th>Должность</th>
+                            <th>Год</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ООО "Лассард"</td>
+                            <td>Техник</td>
+                            <td>2020 - сейчас</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        
+        <form class="form">
+            <h2>Связаться со мной</h2>
+            <div class="input">
+                <div class="block">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя...">
+                </div>
+    
+                <div class="block">
+                    <label for="email">Ваше email:</label>
+                    <input type="email" id="email" placeholder="Введите email...">
+                </div>
+            </div>
+            
+
+            <div>
+                <label for="message">Ваше сообщение:</label>
+                <br>
+                <textarea class="input" name="message" id="message" placeholder="Введите сообщение..."></textarea>
+            </div>
+
+            <input class="btn" type="submit" value="Отправить!">
+        </form>
+    </div>
+    
+
+</body>
+</html>
