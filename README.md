@@ -2,4 +2,6 @@
 
 ## Результат тут
 
-[CV] (https://ichmirom.github.io/resume_html_css/)
+[CV](https://ichmirom.github.io/resume_html_css/)
+
+
